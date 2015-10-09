@@ -4,17 +4,20 @@ import java.util.List;
 
 public class GildedRose {
 	
+	public void RedcutirCalidad(Item item){
+		item.setQuality(item.getQuality() - 1);
+	}
+	
 	public void updateQuality(List<Item> items) {
 		for (Item item : items) {
 
 			if (!item.getName().equals("Aged Brie") && !item.getName().equals("Backstage passes to a TAFKAL80ETC concert")) {
 				if (item.getQuality() > 0) {
 					if (!item.getName().equals("Sulfuras, Hand of Ragnaros")) {
-						item.setQuality(item.getQuality() - 1);
+						RedcutirCalidad(item);
 					}
 				}
-			} else {
-				if (item.getQuality() < 50) {
+			} else if(item.getQuality() < 50) {
 					item.setQuality(item.getQuality() + 1);
 
 					if (item.getName().equals("Backstage passes to a TAFKAL80ETC concert")) {
@@ -31,7 +34,7 @@ public class GildedRose {
 						}
 					}
 				}
-			}
+			
 
 			if (item.getName() != "Sulfuras, Hand of Ragnaros") {
 				item.setSellIn(item.getSellIn() - 1);
@@ -48,8 +51,7 @@ public class GildedRose {
 					} else {
 						item.setQuality(item.getQuality() - item.getQuality());
 					}
-				} else {
-					if (item.getQuality() < 50) {
+				} else if (item.getQuality() < 50) {
 						item.setQuality(item.getQuality() + 1);
 					}
 				}
@@ -57,4 +59,4 @@ public class GildedRose {
 		}
 	}
 
-}
+

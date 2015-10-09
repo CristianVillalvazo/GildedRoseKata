@@ -1,3 +1,4 @@
+
 # The Gilded Rose Code Kata
 
 This is a Java version of the Gilded Rose Kata derived from 
@@ -13,11 +14,13 @@ code base.  To work the Kata, clone this git repository and checkout
 the tag 'start-here'. Read the description below for the "rules"
 involving this kata.
 
+
 ## Changes from Jim's Version
 
 Obviously this version is done in Java. I've added a GildedRose class to hold the 
 updateQuality() method. The tests are done using JUnit 4, which is much different than
 Jim's RSpec Given style.
+
 
 ## Changes from the Original Java Version
 
@@ -38,9 +41,11 @@ This Java version carefully follows Jim's Ruby version so we share the same chan
 You can read
 [the original kata article](http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/) for more details.
 
+
 ## Installation Hints
 
 This should work as an Eclipse project by cloning into Eclipse.
+
 
 ## Git Branches
 
@@ -48,6 +53,7 @@ This should work as an Eclipse project by cloning into Eclipse.
   also tagged as 'start-here'.
 
 Hope you enjoy this.     -- Mark
+
 
 
 # Original Description of the Gilded Rose
@@ -97,6 +103,7 @@ you). Your work needs to be completed by Friday, February 18, 2011
 Just for clarification, an item can never have its Quality increase
 above 50, however "Sulfuras" is a legendary item and as such its
 Quality is 80 and it never alters.
+
 
 # Getting Started
 
