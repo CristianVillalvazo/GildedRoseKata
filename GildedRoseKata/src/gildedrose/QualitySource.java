@@ -1,6 +1,6 @@
 package gildedrose;
 
-public class PublicMetods extends MetodsApplication{
+public class QualitySource extends QualityMetods{
 	
 	
 	@Override

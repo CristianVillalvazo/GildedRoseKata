@@ -2,7 +2,7 @@ package gildedrose;
 
 import gildedrose.GildedRose; ;
 
-public abstract class MetodsApplication {
+public abstract class QualityMetods {
 
 	
 	public void RedcutirCalidad(Item item){
