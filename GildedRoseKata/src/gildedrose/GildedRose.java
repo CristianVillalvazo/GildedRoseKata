@@ -7,6 +7,7 @@ public class GildedRose {
 	
 	PublicMetods metodsApp = new PublicMetods();
 	
+	
 	public void updateQuality(List<Item> items) {
 		for (Item item : items) {
 
