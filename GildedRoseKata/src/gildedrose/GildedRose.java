@@ -20,8 +20,7 @@ public class GildedRose {
 				}
 				
 				
-				
-				
+		
 			} else if(item.getQuality() < 50) {
 				metodsApp.getQuality(item);
 
