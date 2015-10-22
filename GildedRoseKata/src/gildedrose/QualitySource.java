@@ -1,6 +1,6 @@
 package gildedrose;
 
-public class QualitySource extends QualityMetods{
+public class QualitySource extends QualityMetods{ ///Extend of the class QualitySource
 	
 	
 	@Override
@@ -13,10 +13,11 @@ public class QualitySource extends QualityMetods{
 		item.setQuality(item.getQuality() - 1);
 	}
 	
-	
+	@Override
 	public void ReduceSellIn(Item item){
 		item.setSellIn(item.getSellIn() - 1);
 	}
+	@Override
 	public void ReduceEqualsQuiality(Item item){
 		item.setQuality(item.getQuality() - item.getQuality());
 
